@@ -1,0 +1,297 @@
+body {
+    background: white;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */ 
+
+header {
+    background:black;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .mobile {
+    display: none;
+}
+
+header .logo a {
+    background-image: url("images/cbalogo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 1000px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -76.5px;
+    width: 300px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display:inline-block;
+    margin-right: 20px;
+
+}
+
+
+section {
+    padding-bottom:140px;
+}
+
+
+
+.covertitle {
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 60px;
+    font-size: 50px;
+}
+
+.undertitle {
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: -70px;
+    font-size: 20px;
+}
+
+/* FEATURES */
+
+.features {
+        background: white;
+        color: gray;
+        padding-bottom:175px;
+        padding-top: 100px;
+        position: relative;
+        top: -210px;
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap
+}
+
+.features figure{
+    text-align:center;
+    width:500px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    width: 450px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+
+/* BEFORE */
+
+section.headings {
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: -190px;
+    font-size: 20px;
+}
+.fronttitle {
+    color: black;
+    text-align: left;
+    position: relative;
+    top: -300px;
+    left:60px
+}
+
+.backtitle {
+    color: black;
+    text-align: left;
+    position: sticky;
+    top:450px;
+    right: 1350px;
+    flex-wrap: wrap
+}
+
+section.front {
+    color:black;
+    position: relative;
+    right: -20px;
+    top:-430px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.front figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+section.backa {
+    color:black;
+    position: relative;
+    right: 4px;
+    top:150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.backa figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+    
+}
+
+section.backb {
+    color:black;
+    position: relative;
+    right: 5px;
+    top:150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.backb figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+    
+}
+
+.hall {
+    color:black;
+    position: relative;
+    right: -20px;
+    top:-400px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hall figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+.caf {
+    color:black;
+    position: relative;
+    right: -20px;
+    top:-400px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.caf figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+/* DURING */
+
+
+.dfronta {
+    color:black;
+    position: relative;
+    right: -20px;
+    top:-500px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dfronta figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+.duringba {
+    color:black;
+    position: relative;
+    right: -20px;
+    top:-400px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.duringba figure img {
+    width: 600px;
+    box-shadow: grey 0 0 10px;
+    border: 1px solid white;
+}
+
+
+
+
+footer {
+    background: black;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 12px;
+
+
+} 
+
+
+
+   
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 704px) {
+    footer {
+        background: red;
+    }
+
+
+
+@media screen and (max-width: 710px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }

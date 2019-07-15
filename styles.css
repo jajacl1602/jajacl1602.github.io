@@ -92,7 +92,7 @@ section.headings {
 .backtitle {
     color: black;
     text-align: left;
-    position: relative;
+    position: sticky;
     top:450px;
     right: 1350px;
     flex-wrap: wrap
